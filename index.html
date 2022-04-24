@@ -5,11 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- CSSの初期設定解除 -->
+    <link rel="stylesheet" href="init.css" />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
+
   <body>
-    <h1>ポートフォリオサイト</h1>
-    <script src="main.js"></script>
+    <header>
+      <!-- <nav class="nav">menu</nav> -->
+      <ul id="nav">
+        <li><a href="#1">Top</a></li>
+        <li><a href="#2">SNS</a></li>
+        <li><a href="#3">Hobbies</a></li>
+      </ul>
+    </header>
+    <span id="1"></span>
+    <div class="my_image">
+      <div clsaa="menu"></div>
+      <div class="my_image-text">My Portfolio</div>
+    </div>
+
+    <h1>～Self-Introduce～</h1>
+    <div class="info">
+      <p>Name : SAITO YUSEI</p>
+      <p>Birth : Feburary Eleventh 2002</p>
+      <p>From : Fukuoka</p>
+      <p id="2">
+        SNS : <a href="https://www.instagram.com/s.yusei1">Instagram</a>
+      </p>
+    </div>
+
+    <h2 id="3">Hobbies</h2>
+    <ul>
+      <li class="soccer">
+        <img src="psg.jpg" />
+        <p>SOCCER</p>
+      </li>
+      <li class="music">
+        <img src="makaen.jpg">
+        <p>MUSIC</p>
+      </li>
+    </ul>
+    
+      
+    </div>
   </body>
+
+  <footer>
+    <script src="main.js"></script>
+  </footer>
 </html>
